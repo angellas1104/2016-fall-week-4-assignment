@@ -6,6 +6,8 @@
 
 function reverseArray(arr){
     //your code here
+    var newarr=arr.reverse();
+    return newarr;
 }
 
 console.log( reverseArray([1,2,3,4,5]) ); //should log [5,4,3,2,1]
